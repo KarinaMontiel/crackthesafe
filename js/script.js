@@ -14,9 +14,13 @@ var answer1, answer2, answer3, answer4;
 var answer1= $("#number1").val(Math.floor(Math.random()*10));
 var answer2= $("#number2").val(Math.floor(Math.random()*10));
 var answer3= $("#number3").val(Math.floor(Math.random()*10));
-var num4= $("#number4").val(Math.floor(Math.random()*10));
+var answer4= $("#number4").val(Math.floor(Math.random()*10));
 console.log(num1);
 
+var user1= $("#number1").val()
+var user2 =$("#number2").val()
+var user3=$("#number3").val()
+var user4=$("#number4").val()
 
 $("#verify").click(function(){
     
