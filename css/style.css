@@ -30,3 +30,33 @@ input
   justify-content:space-between;
   
 }
+
+
+h3{
+    font-family: 'Righteous', cursive;
+    color:#abf2ee;
+}
+
+h1{
+    font-family: 'Patua One', cursive;
+    border: double #ffb5ea 15px;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+    background-color: #ffb5ea;
+}
+
+html{
+    background: radial-gradient(#42f4ad, #bebcff, #ffb5ea);
+    
+}
+
+h4{
+    color:#abf2ee;
+}
+
+h1{
+    color:whitesmoke;
+}
