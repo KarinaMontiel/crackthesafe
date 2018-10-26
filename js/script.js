@@ -36,10 +36,10 @@ let numbersInPlace= 0
 
 $("#verify").click(function(){
     
-    $("#userChoice").text($("#number1").val());
-    $("#userChoice").text($("#number2").val());
-    $("#userChoice").text($("#number3").val());
-    $("#userChoice").text($("#number4").val());
+    $("#userChoice").append($("#number1").val());
+    $("#userChoice").append($("#number2").val());
+    $("#userChoice").append($("#number3").val());
+    $("#userChoice").append($("#number4").val());
 
     numberGuess1 = $("#number1").val();
     numberGuess2 = $("#number2").val();
