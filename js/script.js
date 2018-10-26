@@ -9,26 +9,45 @@
 
 // DOCUMENT READY FUNCTION BELOW
 //document.ready(function(){
-var answer1, answer2, answer3, answer4;
 
-var answer1= $("#number1").val(Math.floor(Math.random()*10));
-var answer2= $("#number2").val(Math.floor(Math.random()*10));
-var answer3= $("#number3").val(Math.floor(Math.random()*10));
-var answer4= $("#number4").val(Math.floor(Math.random()*10));
-console.log(num1);
+let randomNumber1=Math.floor(Math.random())
+    randomNumber1=randomNumber1.toString()
+let randomNumber2= Math.floor(Math.random())
+    randomNumber2=randomNumber2.toString()
+let randomNumber3=Math.floor(Math.random())
+    randomNumber3=randomNumber3.toString()
+let randomNumber4= Math.floor(Math.random())
+    randomNumber4=randomNumber4.toString()
 
-var user1= $("#number1").val()
-var user2 =$("#number2").val()
-var user3=$("#number3").val()
-var user4=$("#number4").val()
+
+let numberGuess1= ""
+let numberGuess2 =""
+let numberGuess3=""
+let numberGuess4=""
+
+let numbersCorrect= 0
+let numbersInPlace= 0
+
+
+
+
+
+
 
 $("#verify").click(function(){
     
-    $("#userChoice").append($("#number1").val());
-    $("#userChoice").append($("#number2").val());
-    $("#userChoice").append($("#number3").val());
-    $("#userChoice").append($("#number4").val());
+    $("#userChoice").text($("#number1").val());
+    $("#userChoice").text($("#number2").val());
+    $("#userChoice").text($("#number3").val());
+    $("#userChoice").text($("#number4").val());
 
+    numberGuess1 = $("#number1").val();
+    numberGuess2 = $("#number2").val();
+    numberGuess3 = $("#number3").val();
+    numberGuess4 = $("#number4").val();
+
+
+    
     
 });
 
