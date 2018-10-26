@@ -45,7 +45,30 @@ $("#verify").click(function(){
     numberGuess2 = $("#number2").val();
     numberGuess3 = $("#number3").val();
     numberGuess4 = $("#number4").val();
+    
+    if (numberGuess1 === randomNumber1) {
+        return("Correct Number and Position");
+        
+    });
 
+    if (numberGuess2 === randomNumber2) {
+        return("Correct Number and Position");
+
+        
+    });
+    
+    if (numberGuess3 === randomNumber3) {
+        return("Correct Number and Position");
+
+        
+    });
+    
+    if (numberGuess4 === randomNumber4) {
+        
+        
+    });
+    
+    
 
     
     
